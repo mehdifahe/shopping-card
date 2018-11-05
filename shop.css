@@ -1,0 +1,116 @@
+body{
+	background-color: #7EC855;
+}
+
+.shop-container{
+	background-color: white;
+	margin: 100px 230px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	width: 65%;
+}
+
+
+img{
+	width: 100px;
+	height: 75px;
+}
+
+.product{
+	display: flex;
+	justify-content: space-around;
+	height: 53px;
+	margin: 33px 0px;
+	border-bottom: 
+
+}
+
+button{
+	border:none;
+	cursor: pointer;
+	font-size: 25px;
+	background:none;
+	height: 30px;
+	color: #c5bbbb;
+	margin-top: 20px;
+}
+
+.btn-delete {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.btn-delete:hover {
+    background-color: red; 
+    color: white;
+    opacity: 1;
+}
+
+.btn-like {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.btn-like:hover { 
+    color: red;
+    opacity: 1;
+}
+
+.increment{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.increment:hover { 
+    color: green;
+    opacity: 1;
+}
+
+.decrement{
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.decrement:hover { 
+    color: red;
+    opacity: 1;
+}
+
+.detail{
+	margin-top:15px;
+}
+
+p{
+	margin-top: 25px;
+	font-size: 17px;
+	font-family: Georgia, serif;
+}
+
+hr{
+	opacity: 0.3;
+}
+
+#count{
+width:5%;
+border:none; 
+margin-top: 10px;
+font-size: 17px;
+font-family: Georgia, serif; 
+}
+
+#quantity{
+width:5%;
+border:none; 
+margin-top: 10px;
+font-size: 17px;
+font-family: Georgia, serif; 
+}
+
+#quantity-nike{
+width:5%;
+border:none; 
+margin-top: 10px;
+font-size: 17px;
+font-family: Georgia, serif; 
+}
+
