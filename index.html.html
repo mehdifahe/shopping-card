@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="shop.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<title>shopping cart</title>
+</head>
+<body>
+	<div class='shop-container'>
+		<h2>Shopping bag total : <span id='global-price'>0 Dinars</span></h2>
+		<hr>
+		<div class="product1">
+		<div class='product'>
+			<button class='btn-delete'><i class="fas fa-times"></i></button> 
+			<button class='btn-like'onclick="likefunction(event)"><i class="fas fa-heart"></i></button> 
+			<img src="http://www.chaussuresfootsoldes.fr/images/Chaussures-Foot-Soldes/Adidas-Crampon-De-Foot-Ace-16-AG-Argent-Vert-Fluorescent-Noir.jpg" class="argent">
+			<p class="detail"><strong>Adidas</strong><br><small>Argent</small></p>
+			<button class="increment" onclick="plus()"><i class="fas fa-plus-square"></i></button>
+			 <input type="text" size="1" value="0" class='count1'id="count">
+			<button class="decrement" onclick="minus()"><i class="fas fa-minus-square"></i></button>
+			<p><span class="price">0 DT</span></p>
+		</div>
+		</div>
+		<hr>
+		<div class="product2">
+		<div class='product'>
+			<button class='btn-delete'onclick="myfunction(event)"><i class="fas fa-times"></i></button> 
+			<button class='btn-like'onclick="likefunction(event)"><i class="fas fa-heart"></i></button> 
+			<img src="http://www.chaussuresfootsoldes.fr/images/Chaussures-Foot-Soldes/Adidas-Crampon-De-Foot-Ace-16-AG-Dor.jpg"class="gold">
+			<p class="detail"><strong>Adidas</strong><br><small>Gold</small></p>
+			<button class="increment"onclick="plous()"><i class="fas fa-plus-square"></i></button>
+			 <input type="text" size="1" value="0" id="quantity">
+			<button class="decrement"onclick="minous()"><i class="fas fa-minus-square"></i></button>
+			<p><span id="price">0 DT</span></p>
+		</div>
+		</div>
+		<hr>
+		<div class="product3">
+		<div class='product'>
+			<button class='btn-delete'><i class="fas fa-times"></i></button> 
+			<button class='btn-like'onclick="likefunction(event)"><i class="fas fa-heart"></i></button> 
+			<img src="http://www.prochaussuresdefoot.com/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/c/r/crampons_de_foot_nike_mercurial_superfly_v_fg_acc_noir_blanc_1.jpg" class="nike">
+			<p class="detail"><strong>Nike</strong><br><small>Black</small></p>
+			<button class="increment"onclick="addi()"><i class="fas fa-plus-square"></i></button>
+			 <input type="text" size="1" value="0" id="quantity-nike">
+			<button class="decrement"onclick="sous()"><i class="fas fa-minus-square"></i></button>
+			<p><span id="price1">0 DT</span></p>
+		</div>
+		</div>
+	</div>
+<script type="text/javascript" src="shop.js"></script>
+</body>
+</html>
